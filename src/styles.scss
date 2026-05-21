@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --jwn-gold:#9C8458;
+  --jwn-black:#0a0a0a;
+  --jwn-white:#ffffff;
+  --jwn-muted:#b9b9b9;
+  --jwn-surface:#111111;
+  --jwn-surface-2:#171717;
+  --jwn-border:rgba(255,255,255,0.12);
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family:'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--jwn-black);
+  color: var(--jwn-white);
+}
+
+a{ color:inherit; text-decoration:none; }
+.container{ width:min(1100px, calc(100% - 2rem)); margin:0 auto; }
+
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding: .85rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid var(--jwn-border);
+  background: rgba(255,255,255,0.06);
+  color: var(--jwn-white);
+  font-weight:600;
+  cursor:pointer;
+  transition: transform .12s ease, background .12s ease, border-color .12s ease;
+}
+.btn:hover{ transform: translateY(-1px); border-color: rgba(255,255,255,0.2); background: rgba(255,255,255,0.10); }
+.btn.primary{ background: var(--jwn-gold); color: #0b0b0b; border-color: transparent; }
+.btn.primary:hover{ background: #b39a6a; }
+
+.section{ padding: 4rem 0; }
+.kicker{ letter-spacing:.22em; text-transform:uppercase; font-size:.8rem; color: var(--jwn-muted); }
+.h2{ font-family:'Playfair Display', serif; font-size:2.1rem; margin:.6rem 0 1rem; }
+.p{ color: rgba(255,255,255,.82); line-height:1.7; }
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+  border: 1px solid var(--jwn-border);
+  border-radius: 18px;
+  overflow:hidden;
+}
