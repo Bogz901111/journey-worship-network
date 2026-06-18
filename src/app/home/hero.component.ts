@@ -10,25 +10,7 @@ import { Component } from '@angular/core';
     <section class="hero">
       <div class="hero-content">
 
-        <p class="eyebrow">
-          KHUMBE IAFM & JOURNEY WORSHIP NETWORK PRESENTS
-        </p>
 
-        <h1>Worship Around The Fire</h1>
-
-        <p class="date">
-          18 July 2026 - Starts From 4PM - Free Entry
-        </p>
-
-        <p class="venue">
-          Khumbe Independent Apostolic Faith Mission
-        </p>
-
-        <div class="hero-buttons">
-          <a class="details-btn" href="#gallery">
-            View Artists
-          </a>
-        </div>
 
       </div>
     </section>

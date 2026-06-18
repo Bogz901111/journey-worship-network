@@ -22,9 +22,11 @@ import { Component } from '@angular/core';
         </nav>
 
         <div class="actions">
-          <a class="btn support" href="https://www.quicket.co.za" target="_blank" rel="noopener">
-            Support The Event
-          </a>
+        <a class="btn primary"
+   href="https://www.quicket.co.za"
+   target="_blank" rel="noopener">
+  Support The Event
+</a>
           <a class="details-btn" href="#gallery">
           View Artists
         </a>
@@ -101,18 +103,6 @@ import { Component } from '@angular/core';
       gap:.6rem;
     }
 
-    .support{
-      background:linear-gradient(180deg,#ffd461,#d79618);
-      color:#050505;
-      border-color:transparent;
-      font-weight:800;
-      padding:.7rem 1rem;
-      border-radius:999px;
-    }
-
-    .support:hover{
-      transform:translateY(-2px);
-    }
 
     @media (max-width:860px){
       .nav{
